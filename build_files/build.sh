@@ -15,13 +15,13 @@ cp -avf "/ctx/system_files"/. /
 
 
 # this installs a package from fedora repos
-dnf5 install -y \   
+dnf5 install -y \
      fish \
      wl-clipboard \
      nushell \
      emacs \
      alacritty \
-     udiskie \ 
+     udiskie \
      niri \
      xwayland-satellite \
      fuzzel \
