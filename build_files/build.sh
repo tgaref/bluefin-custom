@@ -29,7 +29,10 @@ dnf5 install -y \
      mako \
      brightnessctl \
      playerctl \
-     borgbackup
+     borgbackup \
+     noctalia \
+     libvterm \
+     libvterm-devel
 
 # Use a COPR Example:
 #
@@ -37,12 +40,6 @@ dnf5 install -y \
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
-
-dnf5 -y copr enable zhangyi6324/noctalia-shell
-
-dnf5 -y install noctalia-shell  
-
-dnf5 -y copr disable zhangyi6324/noctalia-shell
 
 #### Example for enabling a System Unit File
 
