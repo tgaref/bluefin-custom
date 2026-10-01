@@ -1,0 +1,7 @@
+kargs = [
+    "i8042.reset",
+    "i8042.nomux=1",
+    "i8042.nopnp=1",
+    "i8042.noloop=1",
+    "atkbd.reset=1"
+]
