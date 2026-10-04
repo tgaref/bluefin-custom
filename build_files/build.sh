@@ -18,15 +18,12 @@ cp -avf "/ctx/system_files"/. /
 dnf5 install -y \
      fish \
      wl-clipboard \
-     nushell \
      emacs \
      alacritty \
      udiskie \
      niri \
      xwayland-satellite \
      fuzzel \
-     waybar \
-     mako \
      brightnessctl \
      playerctl \
      borgbackup \
