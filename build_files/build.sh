@@ -31,6 +31,10 @@ dnf5 install -y \
      libvterm \
      libvterm-devel
 
+# Install Umbriel from the Terra repository
+dnf5 install -y --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+dnf5 install -y umbriel-nightly
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
